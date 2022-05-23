@@ -1,0 +1,52 @@
+sudo apt dist-upgrade
+sudo apt upgrade
+sudo apt update
+
+# Code Editor
+sudo apt install vim
+# SSH to Linux apps
+sudo apt install openssh-server openssh client
+
+#       https://stackoverflow.com/questions/50100360/connecting-to-aws-ec2-instance-through-remote-desktop
+
+# ubuntu desktop
+sudo apt install ubuntu-desktop
+
+# RDP to Linux app
+sudo apt install xrdp 
+sudo systemctl status xrdp
+
+# example
+# xrdp.service - xrdp daemon
+#     Loaded: loaded (/lib/systemd/system/xrdp.service; enabled; vendor preset: enabled)
+#     Active: active (running) since Mon 2022-05-23 13:15:59 UTC; 2min 19s ago
+
+# By default Xrdp uses the /etc/ssl/private/ssl-cert-snakeoil.key file that is readable only by members of the “ssl-cert” group. 
+# Run the following command to add the xrdp user to the group :
+sudo adduser xrdp ssl-cert
+sudo systemctl restart xrdp
+
+# change default 'ubuntu' user password
+sudo passwd ubuntu
+
+# In AWS Console, select Ubuntu running instance
+# In Instance Security, select current Security groups
+# Select "Edit inbound rules"
+# "Add rule"
+#      RDP Source 0.0.0.0/0
+
+# Open Remote Desktop Connection on windows machine
+# Enter Computer: Public IPv4 DNS of Ubuntu ec2 and add username:your_user_name
+
+Save RDP Login Shortcut
+
+# Install Python 3.10
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10
+sudo apt install python3-pip
+
+# Add Python modules
+sudo pip install python-dotenv
+sudo pip install requests
+sudo pip install beautifulsoup4

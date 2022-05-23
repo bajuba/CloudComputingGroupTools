@@ -1,0 +1,57 @@
+#    https://ninite.com/   Good source for quick installs on common apps
+
+# Get Ninite installer for...
+#   Chrome
+#   7-Zip
+#   Zoom
+#   KeePass 2
+#   VLC
+#   Java (AdoptOpenJDK) x64 Most current (11.0.15)
+#   .NET Desktop Runtime x64 6
+#   Notepad++
+#   WinSCP
+#   PuTTY
+#   Visual Studio Code
+#   Greenshot
+#   CutePDF
+#   TeamViewer 15
+
+# Latest found \Files\Recommended Ninite.exe
+
+# Install from Microsoft Store...
+#    Windows Terminal
+#    Python 3.10
+
+# Install common pip modules for Python
+    pip install python-dotenv
+    pip install requests
+    pip install beautifulsoup4
+
+# Install Git for Windows
+#     https://gitforwindows.org/
+
+# Recommeded VS Code Extensions
+#
+#    Azure CLI Tools
+#    Bracket Pair Colorizer 2
+#    #region folding for VS Code
+#    BASH Extension Pack
+#    Bash IDE
+#    Better Comments
+#    Colored Regions
+#    Git History
+#    Git Project Manager
+#    Jira and Bitbucket
+#    MagicPython
+#    Noctis (collection of VS Code themes)
+#    PowerShell
+#    Python Extension Pack
+#    Python Preview
+#    Rainbow CSV
+#    Region Marker
+#    Remote-SSH
+#    Remote-WSL
+#    REST Client
+#    SQL Server (mssql)
+#    SQL Bindiings
+#    Terminal (for VSCode)

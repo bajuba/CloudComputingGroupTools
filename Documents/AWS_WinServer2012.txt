@@ -1,0 +1,76 @@
+# For running WinServer Instance...
+#    Go to Connect.
+#    RDP client
+#    Decrypt password from AWS-WinServer.pem file
+#    Download Remote Desktop (RDP) file shortcut
+#
+# Log-In to WinServer2012 R2 Server via RDP
+
+# Change PC Hostname (ie. MyWin2012R2)
+# Change Windows MyWin2012R2 Administrator Password
+
+#    https://ninite.com/   Good source for quick installs on common apps
+
+# Get Ninite installer for...
+#   Chrome
+#   7-Zip
+#   Zoom
+#   KeePass 2
+#   VLC
+#   Java (AdoptOpenJDK) x64 Most current (11.0.15)
+#   .NET Desktop Runtime x64 6
+#   Notepad++
+#   WinSCP
+#   PuTTY
+#   Visual Studio Code
+#   Greenshot
+#   CutePDF
+#   TeamViewer 15
+
+# Latest found \Files\Recommended Ninite.exe
+
+# To enable Microsoft Store...
+#       https://www.solvps.com/blog/?p=628
+# Enable feature "User Interfaces and Infrastructure/Desktop Experience"
+
+
+# Install from Microsoft Store...
+#    Remote Terminal (SSH)
+#    Python
+
+# Install common pip modules for Python
+    pip install python-dotenv
+    pip install requests
+
+# Install Git for Windows
+#     https://gitforwindows.org/
+
+# Recommeded VS Code Extensions
+#
+#    Azure CLI Tools
+#    Bracket Pair Colorizer 2
+#    #region folding for VS Code
+#    BASH Extension Pack
+#    Bash IDE
+#    Better Comments
+#    Colored Regions
+#    Git History
+#    Git Project Manager
+#    Jira and Bitbucket
+#    MagicPython
+#    Noctis (collection of VS Code themes)
+#    PowerShell
+#    Python Extension Pack
+#    Python Preview
+#    Rainbow CSV
+#    Region Marker
+#    Remote-SSH
+#    Remote-WSL
+#    REST Client
+#    SQL Server (mssql)
+#    SQL Bindiings
+#    Terminal (for VSCode)
+
+
+# WinServer SSMAgent install
+#    https://docs.aws.amazon.com/systems-manager/latest/userguide/sysman-install-win.html

@@ -1,0 +1,19 @@
+#    https://docs.microsoft.com/en-us/windows/wsl/install
+wsl --install
+
+#    Windows Store Install
+# Install "Windows Terminal"
+
+
+
+#In "Ubuntu" Windows Terminal...
+# Copy .pem files to ~/.ssh
+# Change permissions on AWS created .pem files
+
+chmod 400 ~/.ssh/AWS_Ubuntu.pem
+chmod 400 ~/.ssh/AWS-WinServer2012.pem
+
+# SSH command format
+# ssh -i "[path to AWS_Ubuntu.pem]" ubuntu@[path to AWS public running instance DNS]
+
+ssh -i "~/.ssh/AWS_Ubuntu.pem" ubuntu@ec2-18-116-10-93.us-east-2.compute.amazonaws.com

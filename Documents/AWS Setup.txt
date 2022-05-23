@@ -1,0 +1,8 @@
+https://aws.amazon.com/
+
+Setup root email account.
+Confirm email
+AWS Free Tier still needs Credit Card Entered
+Confirm with SMS
+Login to AWS
+
