@@ -1,0 +1,11 @@
+Name = "MyWinServer"
+OS = "Microsoft Windows Server 2012 R2 Base"
+Instance Type = "t2.micro"
+
+Create NewKeyPair "AWS-WinServer2012.pem"
+
+Default Network Settings
+
+Storage = 30 GiB
+
+Launch Instance

@@ -1,0 +1,8 @@
+Name = "MyUbuntu"
+OS = Ubuntu 22.04 LTS
+InstanceType = "t2.micro"
+Create NewKeyPair "AWS_Ubuntu.pem"
+No Network Changes
+Storage = "30 GiB"
+
+Launch Instances
